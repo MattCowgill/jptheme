@@ -1,18 +1,28 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # jptheme
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-jptheme provides functions to style ggplot2 charts for the Apricitas
-blog by Joey Politano.
+jptheme provides functions to style ggplot2 charts for the Apricitas blog by Joey Politano.
 
 ## Installation
 
-You can install the development version of jptheme from
-[GitHub](https://github.com/) with:
+You can install the development version of jptheme from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -23,7 +33,7 @@ devtools::install_github("mattcowgill/jptheme")
 
 This is a basic example:
 
-``` r
+```{r example}
 library(jptheme)
 library(ggplot2)
 
@@ -33,6 +43,6 @@ ggplot(mtcars, aes(wt, mpg)) +
   labs(title = "This is a title",
        subtitle = "This is a subtitle",
        caption = "This is a caption")
+
 ```
 
-<img src="man/figures/README-example-1.png" width="100%" />
