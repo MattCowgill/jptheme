@@ -1,0 +1,14 @@
+Package: jptheme
+Title: ggplot2 theme package for the Apricitas blog
+Version: 0.0.0.9000
+Authors@R: 
+    c(
+      person("Joey", "Politano", , "email@email.com", role = c("aut", "cre")),
+      person("Matt", "Cowgill", "mattcowgill@gmail.com", role = "ctb")
+      )
+Description: Provides custom functions to style ggplot2 objects in the style 
+    used by Joey Politano for his blog/Substack Apricitas.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.0
