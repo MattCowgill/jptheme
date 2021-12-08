@@ -4,7 +4,12 @@
 \alias{theme_apricitas}
 \title{Define the theme of the Apricitas blog}
 \usage{
-theme_apricitas()
+theme_apricitas(text_size = 14, legend.position = c(0.9, 0.9))
+}
+\arguments{
+\item{text_size}{Size of legend text and title. Plot title is text_size * 2.}
+
+\item{legend.position}{Legend position}
 }
 \description{
 Define the theme of the Apricitas blog
